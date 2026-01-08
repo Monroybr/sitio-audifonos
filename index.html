@@ -11,6 +11,37 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="img-header">
+                <picture>
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.webp 1920w" 
+                        type="image/webp">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.jpg 1920w" 
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div> <!--Cierre imagen Header-->
+            
+            <!--Informacion de audifonos-->
+            <div class="texto-header">
+                <p class="line-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam harum officiis 
+                    totam, quod ex nobis voluptate laborum doloribus inventore laudantium illo dignissimos aliquid voluptatibus? 
+                    Quidem quasi beatae unde sapiente suscipit?</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+
+        </div>
+    </header>
 </body>
 </html>
