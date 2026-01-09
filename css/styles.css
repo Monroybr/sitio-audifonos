@@ -350,7 +350,7 @@ img{
     padding: 1rem;
 }
 @media (min-width: 770px){
-    .formulario input[type="text"]{
+    .texto-newsletter{
         width: 140%;
     }
 }
@@ -364,8 +364,18 @@ img{
     font-weight: 900;
     border: none;
 }
-@media (min-width: 770px){
-    .formulario input[type="submit"]{
-        width: 140%;
-    }
+/*Footer*/
+.footer p{
+    text-align: center;
+    font-family: var(--fuenteSecundaria);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10rem 0 0;
+    
+    
+}
+@media (min-width: 768px){
+    .footer p{
+        padding: 3rem 0;
+    } 
 }
